@@ -19,7 +19,7 @@ menu_items = {
 class FoodOrderingApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("KFC Self Ordering System")
+        self.root.title("Gesture controlled Food Ordering System")
 
         # Set the initial position and size of the window
         self.root.geometry("1000x700+0+0")
